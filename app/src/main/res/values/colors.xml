@@ -1,0 +1,12 @@
+<resources>
+    <color name="primaryColor">#0D47A1</color> <!-- Deep blue -->
+    <color name="primaryLightColor">#5472d3</color> <!-- Light blue -->
+    <color name="c">#FFC107</color> <!-- Amber -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark text -->
+    <color name="textColorSecondary">#757575</color> <!-- Light text -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Light grey -->
+    <color name="buttonColor">#1976D2</color> <!-- Button color -->
+    <color name="cardBackgroundColor">#FFFFFF</color> <!-- White for card -->
+    <color name="colorAccent">#03DAC5</color>
+    <color name="secondaryColor">#CB6CFF</color>
+</resources>

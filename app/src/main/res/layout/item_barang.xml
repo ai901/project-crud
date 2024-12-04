@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvMerkBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merk Barang"
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvHargaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Barang"
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        android:paddingBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white"
+            android:paddingHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp"
+            android:paddingHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/btnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:backgroundTint="@color/secondaryColor"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp"
+            android:paddingHorizontal="16dp" />
+    </LinearLayout>
+</LinearLayout>

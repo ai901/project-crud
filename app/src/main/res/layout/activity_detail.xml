@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/page"
+    android:name=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tvNamaBarangDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang"
+        android:textSize="40sp"
+        android:textColor="@color/cardBackgroundColor"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvMerkBarangDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merk Barang"
+        android:textColor="@color/cardBackgroundColor"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvHargaBarangDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        android:text="Harga Barang"
+        android:textSize="30sp"
+        android:paddingBottom="8dp" />
+</LinearLayout>

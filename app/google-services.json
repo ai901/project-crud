@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276329606239",
+    "project_id": "crutt-3dfcf",
+    "storage_bucket": "crutt-3dfcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276329606239:android:e2ed2be72f3ac34f7affea",
+        "android_client_info": {
+          "package_name": "com.example.cruttt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLfMIK1GsPHduXCq1nYBNxQX5YC7sKj_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
